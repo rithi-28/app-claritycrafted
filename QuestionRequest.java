@@ -24,7 +24,6 @@ public class QuestionRequest extends HttpServlet{
 			List<String> lst = calc.processor(demo.getEntry(), qresult);
 			resp.getWriter().println("<h1>"+lst.get(0)+"</h1><p>"+lst.get(1)+"</p>");
 //			resp.getWriter().println("கட்டுரை");
-			 fdcd
 		 }
 	 }
 }
